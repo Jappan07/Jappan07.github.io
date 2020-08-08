@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    color: #545E6C;
+    background-color: #effeef;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    min-height: 1500px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    transition: 0.3s ease all;
+
+}
+
+a:hover {
+    text-decoration: none;
+    /* margin-left: 5px; */
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #2f4652;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+
+/* --------------------------------- SIDEBAR -------------------------------- */
+
+.content-wrapper {
+    margin: 0 auto;
+    position: relative;
+    max-width: 960px;
+    min-height: 1500px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
+}
+
+.sidebar {
+    background-color: #4B6A78;
+    min-height: 1564px;
+    width: 250px;
+    position: absolute;
+    right: 0;
+}
+
+.profile-container {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    height: 400px;
+    text-align: center;
+}
+
+/* ------------------------------- PROFILE-BOX ------------------------------ */
+
+.profile-box {
+    position: relative;
+    display: block;
+    margin: 10px auto 30px;
+    height: 230px;
+    width: 180px;
+    background-color: skyblue;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.3s ease all;
+
+}
+
+
+.profile-container .tagline h3 {
+    position: relative;
+    font-family: monospace;
+    bottom: 17px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.profile-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile-box img {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    transition: 1s ease all;
+}
+
+.profile-box:hover img {
+    transform: scale(1.2);
+}
+
+.profile-box .box-content {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    /* height: 100px; */
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    padding: 20px 20px 0;
+    background: rgb(0, 0, 0, 0.5);
+    color: #fff;
+    transition: 0.5s ease all;
+}
+
+.profile-box:hover .box-content {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.profile-box .box-content h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.profile-box .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-box .social-links li {
+    margin-left: 5px;
+    position: relative;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 0.3s ease all;
+    transform: translateY(80px);
+}
+
+.profile-box .social-links img {
+    border-radius: 50%;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    transition: 0.3s ease all;
+    transform: translateY(80px);
+}
+
+.profile-box .social-links li:nth-child(2) {
+    transition-delay: 0.20s;
+}
+
+.profile-box .social-links li:last-child {
+    transition-delay: 0.30s;
+}
+
+.profile-box:hover .social-links li {
+    transform: none;
+}
+
+.profile-box .social-links img:nth-child(2) {
+    transition-delay: 0.20s;
+}
+
+.profile-box .social-links img:last-child {
+    transition-delay: 0.30s;
+}
+
+.profile-box:hover .social-links img {
+    transform: none;
+
+}
+
+.sidebar .container-block {
+    padding: 30px;
+    color: #fff;
+}
+
+.sidebar .container-block .container-block-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sidebar .container-block a {
+    color: #fff;
+}
+
+.sidebar .container-block ul {
+    font-weight: lighter;
+}
+
+.sidebar .container-block li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.sidebar .container-block span {
+    opacity: 0.5;
+}
+
+
+/* -------------------------------- SITE-MAIN ------------------------------- */
+.site-main {
+    padding: 60px;
+    padding-right: 300px;
+}
+
+.section {
+    margin-bottom: 60px;
+}
+
+.site-main .section .item {
+    margin-bottom: 30px;
+}
+
+.site-main .section-title {
+    font-size: 20px;
+    font-weight: 550;
+    color: #2e4049;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.site-main .section-title .fa {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+
+}
+
+.site-main .upper-row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+
+.site-main .institution {
+    color: #38414d;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+
+}
+
+.site-main .time {
+    position: absolute;
+    font-size: 14px;
+    right: 0;
+    top: 0;
+    color: #9ab0ce;
+}
+
+.site-main .work-title {
+    margin-bottom: 10px;
+    color: #89a1c3;
+    font-size: 13px;
+}
+
+.site-main .details p {
+    color: #566170;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.site-main .projects-section .item {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.site-main .project-title {
+    font-size: 16px;
+    margin-top: 0;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+.site-main .skills-section .item {
+    margin-bottom: 15px;
+}
+
+.site-main .skills-section .item h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.site-main .skills-section .level-title {
+    display: inline-block;
+}
+
+.skillset .level-bar {
+    background-color: #f5f5f5;
+    height: 12px;
+}
+
+.skillset .level-bar-inner {
+    background-color: #6c92a3;
+    height: 12px;
+}
+
+footer span {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+footer .fa-heart {
+    padding: 2px;
+    color: rgb(219, 115, 112);
+    /* transition: 0.3s ease-in-out; */
+    animation: beat .5s infinite alternate;
+}
+
+@keyframes beat {
+    to {
+        transform: scale(1.2);
+    }
+}
+
+
+/* ----------------------- MOBILE RESPONSIVE SETTINGS ----------------------- */
+/* extra small devices */
+@media screen and (max-width:767px) {
+    .sidebar {
+        position: static;
+        width: inherit;
+        min-height: 1000px;
+    }
+
+    .site-main {
+        padding: 30px
+    }
+
+    .site-main .time {
+        position: static;
+        display: block;
+        margin-top: 5px;
+    }
+
+    .site-main .upper-row {
+        margin-bottom: 0;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media screen and (max-width:994px) {
+    .sidebar {
+        position: static;
+        width: inherit;
+        min-height: 1000px;
+    }
+
+    .site-main {
+        padding: 50px
+    }
+
+    .skillset .level-title {
+        display: inline-block;
+        /* float: left; */
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    .skillset .level-bar {
+        display: block;
+        width: 100%;
+        position: relative;
+        top: 1px;
+
+    }
+}
