@@ -28,7 +28,6 @@ a:hover {
     background-color: #2f4652;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 
-
 }
 
 
@@ -320,6 +319,13 @@ ul {
 .skillset .level-bar-inner {
     background-color: #6c92a3;
     height: 12px;
+    transition: 0.2s ease all;
+}
+
+.skillset .level-bar-inner:hover {
+    background-color: #6ca38c;
+    height: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 footer span {
