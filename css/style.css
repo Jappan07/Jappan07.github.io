@@ -64,7 +64,7 @@ a:hover {
     position: relative;
     display: block;
     margin: 10px auto 30px;
-    height: 230px;
+    height: 235px;
     width: 180px;
     background-color: skyblue;
     border-radius: 4px;
@@ -351,7 +351,7 @@ footer .fa-heart {
     }
 
     .site-main {
-        padding: 30px
+        padding: 20px
     }
 
     .site-main .time {
