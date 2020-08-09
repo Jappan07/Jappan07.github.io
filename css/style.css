@@ -15,6 +15,56 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* experimenting */
+.frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 200px;
+    position: relative;
+    top: 5px;
+    right: 10px;
+    box-shadow:
+        inset 2px 2px 2px 0px rgba(255, 255, 255, .3),
+        7px 7px 20px 0px rgba(0, 0, 0, .2),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    ;
+    transition: box-shadow 0.3s cubic-bezier(.79, .21, .06, .81);
+    border-radius: 4px;
+}
+
+.btn {
+    height: 35px;
+    width: 35px;
+    border-radius: 3px;
+    background: #e0e5ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+        inset 2px 2px 2px 0px rgba(255, 255, 255, .3),
+        7px 7px 20px 0px rgba(0, 0, 0, .2),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    transition: box-shadow 0.3s cubic-bezier(.79, .21, .06, .81);
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:active {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3),
+        -4px -4px 6px 0 rgba(116, 125, 136, .2),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+/* //experimenting */
+
 a {
     transition: 0.3s ease all;
 
