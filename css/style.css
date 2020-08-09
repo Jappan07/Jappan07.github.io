@@ -166,7 +166,7 @@ a:hover {
 }
 
 .profile-box:hover .social-links li {
-    transform: none;
+    transform: scale(1);
 }
 
 .profile-box .social-links img:nth-child(2) {
@@ -178,7 +178,7 @@ a:hover {
 }
 
 .profile-box:hover .social-links img {
-    transform: none;
+    transform: scale(1);
 
 }
 
