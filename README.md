@@ -1,2 +1,2 @@
-<p>Feel free to use this template created by me.<br>clone this repository and do the modifications in index.html then run on any web-browser of your choice.<br>
-Follow the link to see portfolio - https://jappan07.github.io
+<p>Feel free to use this template created by me.<br>clone this repository and do the modifications in index.html then run on any web-browser of your choice.
+<p>Follow the link to see portfolio - https://jappan07.github.io
