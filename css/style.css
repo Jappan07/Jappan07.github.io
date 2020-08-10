@@ -487,6 +487,10 @@ footer .fa-heart {
         width: 100%;
     }
 
+    #map {
+        width: 100%;
+    }
+
     .btn {
         padding: 25px;
     }
