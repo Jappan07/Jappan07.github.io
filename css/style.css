@@ -131,6 +131,7 @@ a:hover {
 }
 
 
+
 /* --------------------------------- SIDEBAR -------------------------------- */
 
 .content-wrapper {
@@ -157,6 +158,7 @@ a:hover {
     text-align: center;
 }
 
+/* google maps */
 #map {
     height: 300px;
     width: 200px;

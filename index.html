@@ -382,22 +382,22 @@
 
     <!-- ----------------------------- JAVASCRIPT ------------------------------ -->
     <script>
-        // experimenting
+        // google maps
         function initMap() {
             // The location of Uluru
             var home = { lat: 28.476703, lng: 77.312089 };
             // The map, centered at Uluru
             var map = new google.maps.Map(
-                document.getElementById('map'), { zoom: 4, center: home });
+                document.getElementById('map'), { zoom: 16, center: home });
             // The marker, positioned at Uluru
             var marker = new google.maps.Marker({ position: home, map: map });
         }
 
-        // end of experimenting
+
     </script>
     <script defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD84nh1ihLsHzl37nIYRJQWXFcY1q9CmOw&callback=initMap"></script>
-
+    <!-- //google maps -->
 </body>
 
 </html>
