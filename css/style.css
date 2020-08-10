@@ -433,11 +433,6 @@ ul {
     transition: 0.2s ease all;
 }
 
-.skillset .level-bar-inner:hover {
-    height: 12px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-}
-
 footer span {
     font-size: 12px;
     font-weight: 600;
