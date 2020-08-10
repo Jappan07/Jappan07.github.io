@@ -483,6 +483,14 @@ footer .fa-heart {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 @media screen and (max-width:994px) {
+    .frame {
+        width: 100%;
+    }
+
+    .btn {
+        padding: 25px;
+    }
+
     .sidebar {
         position: static;
         width: inherit;
