@@ -85,6 +85,7 @@ body {
     display: inline-flex;
     color: #fff;
 
+
 }
 
 .CV-container h1 span:nth-child(even) {
@@ -94,23 +95,23 @@ body {
     letter-spacing: -1em;
 }
 
-.CV-container h1:hover span:nth-child(even) {
+.CV-container :hover span:nth-child(even) {
     letter-spacing: 0;
     cursor: pointer;
 }
 
-.CV-container h1:hover span:nth-child(2) {
+.CV-container :hover span:nth-child(2) {
     transition-delay: 0s;
 
 }
 
-.CV-container h1:hover span:nth-child(4) {
-    transition-delay: 0.5s;
+.CV-container :hover span:nth-child(4) {
+    transition-delay: 0.3s;
 
 }
 
-.CV-container h1:hover span:nth-child(6) {
-    transition-delay: 0.8s;
+.CV-container :hover span:nth-child(6) {
+    transition-delay: 0.5s;
 }
 
 /* //experimenting */
