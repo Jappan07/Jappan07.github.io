@@ -17,9 +17,6 @@
 </head>
 
 <body>
-    <!-- experimenting -->
-
-    <!-- //experimenting -->
 
     <div class="content-wrapper">
         <!-- sidebar -->
@@ -61,7 +58,14 @@
                 <ul class="list-unstyled">
                     <li>
                         <i class="fa fa-folder-open" aria-hidden="true"></i>
-                        <a href="./assets/JappanCv.pdf" target="_blank">Curriculum vitae</a>
+                        <a href="./assets/JappanCv.pdf" target="_blank">
+                            <div class="CV-container">
+                                <h1>
+                                    <span>C</span><span>urriculum</span>
+                                    <span>V</span><span>itae</span>
+                                </h1>
+                            </div>
+                        </a>
                     </li>
                 </ul>
 
@@ -146,6 +150,12 @@
                     <li>Photography</li>
                     <li>Singing</li>
                 </ul>
+            </div>
+            <div class="container-block">
+                <h2 class="container-block-title">
+                    LOCATION
+                </h2>
+                <div id="map"></div>
             </div>
         </aside>
 
@@ -373,8 +383,20 @@
     <!-- ----------------------------- JAVASCRIPT ------------------------------ -->
     <script>
         // experimenting
+        function initMap() {
+            // The location of Uluru
+            var home = { lat: 28.476703, lng: 77.312089 };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 4, center: home });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({ position: home, map: map });
+        }
+
         // end of experimenting
     </script>
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD84nh1ihLsHzl37nIYRJQWXFcY1q9CmOw&callback=initMap"></script>
 
 </body>
 
